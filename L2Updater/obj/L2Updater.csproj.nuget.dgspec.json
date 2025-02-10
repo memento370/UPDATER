@@ -1,0 +1,71 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\СОФТ Л2 АДМИНА\\L2Updater\\L2Updater\\L2Updater.csproj": {}
+  },
+  "projects": {
+    "D:\\СОФТ Л2 АДМИНА\\L2Updater\\L2Updater\\L2Updater.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\СОФТ Л2 АДМИНА\\L2Updater\\L2Updater\\L2Updater.csproj",
+        "projectName": "L2Updater",
+        "projectPath": "D:\\СОФТ Л2 АДМИНА\\L2Updater\\L2Updater\\L2Updater.csproj",
+        "packagesPath": "C:\\Users\\seer\\.nuget\\packages\\",
+        "outputPath": "D:\\СОФТ Л2 АДМИНА\\L2Updater\\L2Updater\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\seer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net45"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "D:\\BTI\\sourse\\packages_22.1\\packages": {},
+          "\\\\172.16.4.7\\NuGetRepo": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net45": {
+            "targetAlias": "net45",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net45": {
+          "targetAlias": "net45",
+          "dependencies": {
+            "Microsoft.NETFramework.ReferenceAssemblies": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win7-x86": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,120 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>L2Updater</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <OutputType>WinExe</OutputType>
+    <UseWPF>True</UseWPF>
+    <TargetFramework>net45</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>Preview</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <ApplicationIcon>l2.ico</ApplicationIcon>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="l2.ico" />
+    <None Remove="Updater\fonts\Hombre Bold Italic.otf" />
+    <None Remove="Updater\fonts\Hombre Bold.otf" />
+    <None Remove="Updater\fonts\Hombre Italic.otf" />
+    <None Remove="Updater\fonts\Hombre Regular.otf" />
+    <None Remove="Updater\pictures\backabsolute.png" />
+    <None Remove="Updater\pictures\background.png" />
+    <None Remove="Updater\pictures\background2.png" />
+    <None Remove="Updater\pictures\background3.png" />
+    <None Remove="Updater\pictures\btn-hover.png" />
+    <None Remove="Updater\pictures\btn-press.png" />
+    <None Remove="Updater\pictures\btn-start-hover.png" />
+    <None Remove="Updater\pictures\btn-start-press.png" />
+    <None Remove="Updater\pictures\btn-start.png" />
+    <None Remove="Updater\pictures\btn.png" />
+    <None Remove="Updater\pictures\button-hower.png" />
+    <None Remove="Updater\pictures\button-test-hover.png" />
+    <None Remove="Updater\pictures\button-test.png" />
+    <None Remove="Updater\pictures\button.png" />
+    <None Remove="Updater\pictures\button2.png" />
+    <None Remove="Updater\pictures\button_hover.png" />
+    <None Remove="Updater\pictures\button_press.png" />
+    <None Remove="Updater\pictures\chekl.png" />
+    <None Remove="Updater\pictures\close.png" />
+    <None Remove="Updater\pictures\close_hover.png" />
+    <None Remove="Updater\pictures\dom.png" />
+    <None Remove="Updater\pictures\donate.png" />
+    <None Remove="Updater\pictures\eng.png" />
+    <None Remove="Updater\pictures\l2.ico" />
+    <None Remove="Updater\pictures\logo.ico" />
+    <None Remove="Updater\pictures\logo.png" />
+    <None Remove="Updater\pictures\new-button-hover.png" />
+    <None Remove="Updater\pictures\new-button.png" />
+    <None Remove="Updater\pictures\progress.png" />
+    <None Remove="Updater\pictures\progress2.png" />
+    <None Remove="Updater\pictures\progressblue.png" />
+    <None Remove="Updater\pictures\progressred.png" />
+    <None Remove="Updater\pictures\progress_down.png" />
+    <None Remove="Updater\pictures\progress_up.png" />
+    <None Remove="Updater\pictures\rus.png" />
+    <None Remove="Updater\pictures\shaiba.png" />
+    <None Remove="Updater\pictures\start.png" />
+    <None Remove="Updater\pictures\start_hover.png" />
+    <None Remove="Updater\pictures\start_press.png" />
+    <None Remove="Updater\pictures\vector.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Updater\pictures\btn-hover.png" />
+    <Resource Include="Updater\pictures\btn-press.png" />
+    <Resource Include="Updater\pictures\btn-start-hover.png" />
+    <Resource Include="Updater\pictures\btn-start-press.png" />
+    <Resource Include="Updater\pictures\btn-start.png" />
+    <Resource Include="Updater\pictures\btn.png" />
+    <Resource Include="Updater\pictures\button-test-hover.png" />
+    <Resource Include="Updater\pictures\button-test.png" />
+    <Resource Include="Updater\pictures\new-button-hover.png" />
+    <Resource Include="Updater\pictures\new-button.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="System.Windows.Forms" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="l2.ico" />
+    <Resource Include="Updater\fonts\Hombre Bold Italic.otf" />
+    <Resource Include="Updater\fonts\Hombre Bold.otf">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Updater\fonts\Hombre Italic.otf" />
+    <Resource Include="Updater\fonts\Hombre Regular.otf" />
+    <Resource Include="Updater\pictures\backabsolute.png" />
+    <Resource Include="Updater\pictures\background.png" />
+    <Resource Include="Updater\pictures\background2.png" />
+    <Resource Include="Updater\pictures\background3.png" />
+    <Resource Include="Updater\pictures\button.png" />
+    <Resource Include="Updater\pictures\button2.png" />
+    <Resource Include="Updater\pictures\button_press.png" />
+    <Resource Include="Updater\pictures\chekl.png" />
+    <Resource Include="Updater\pictures\close.png" />
+    <Resource Include="Updater\pictures\close_hover.png" />
+    <Resource Include="Updater\pictures\dom.png" />
+    <Resource Include="Updater\pictures\donate.png" />
+    <Resource Include="Updater\pictures\eng.png" />
+    <Resource Include="Updater\pictures\l2.ico" />
+    <Resource Include="Updater\pictures\logo.ico" />
+    <Resource Include="Updater\pictures\logo.png" />
+    <Resource Include="Updater\pictures\progress.png" />
+    <Resource Include="Updater\pictures\progress2.png" />
+    <Resource Include="Updater\pictures\progressblue.png" />
+    <Resource Include="Updater\pictures\progressred.png" />
+    <Resource Include="Updater\pictures\progress_down.png" />
+    <Resource Include="Updater\pictures\progress_up.png" />
+    <Resource Include="Updater\pictures\rus.png" />
+    <Resource Include="Updater\pictures\shaiba.png" />
+    <Resource Include="Updater\pictures\start.png" />
+    <Resource Include="Updater\pictures\start_hover.png" />
+    <Resource Include="Updater\pictures\start_press.png" />
+    <Resource Include="Updater\pictures\vector.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Updater\MainWindow.xaml">
+      <XamlRuntime>$(DefaultXamlRuntime)</XamlRuntime>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+</Project>

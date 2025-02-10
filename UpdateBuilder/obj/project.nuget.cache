@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "HpmMBE2WUtU=",
+  "success": true,
+  "projectFilePath": "D:\\СОФТ Л2 АДМИНА\\L2Updater\\UpdateBuilder\\UpdateBuilder.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\seer\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.3\\microsoft.netframework.referenceassemblies.1.0.3.nupkg.sha512",
+    "C:\\Users\\seer\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net45\\1.0.3\\microsoft.netframework.referenceassemblies.net45.1.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
