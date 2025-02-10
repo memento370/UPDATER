@@ -443,8 +443,6 @@ namespace Updater
 
         private void UpdateStart(UpdateTypes type, string updateUrl, CancellationToken token)
         {
-            System.Windows.MessageBox.Show("UpdateStart: " + updateUrl + _updateUrl);
-
             try
             {
                 Update(type, updateUrl, token);
@@ -472,8 +470,6 @@ namespace Updater
 
         private void Update(UpdateTypes type, string updateUrl, CancellationToken token)
         {
-            System.Windows.MessageBox.Show("Update: " + updateUrl);
-
             _updateUrl = updateUrl;
             ProgressFull = 0.0;
             Info = _initText;

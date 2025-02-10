@@ -19,3 +19,4 @@ D:\СОФТ Л2 АДМИНА\L2Updater\L2Updater\obj\Release\net45\L2Updater.Gen
 D:\СОФТ Л2 АДМИНА\L2Updater\L2Updater\obj\Release\net45\L2Updater.csproj.CoreCompileInputs.cache
 D:\СОФТ Л2 АДМИНА\L2Updater\L2Updater\obj\Release\net45\L2Updater.exe
 D:\СОФТ Л2 АДМИНА\L2Updater\L2Updater\obj\Release\net45\L2Updater.pdb
+D:\СОФТ Л2 АДМИНА\L2Updater\L2Updater\obj\Release\net45\L2Updater.sourcelink.json

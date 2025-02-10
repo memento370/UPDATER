@@ -12,7 +12,6 @@ namespace Updater.UtillsClasses
         {
             // string url2 = Path.Combine(url, "UpdateInfo.xml");
             string url2 = url.TrimEnd('/') + "/UpdateInfo.xml";
-            System.Windows.MessageBox.Show("Запит URL: " + url2);
             XmlDocument xmlFromUrl = GetXmlFromUrl(url2);
             XmlSerializer xmlSerializer = new XmlSerializer(typeof(UpdateInfoModel));
             using TextReader textReader = new StringReader(xmlFromUrl.InnerXml);
