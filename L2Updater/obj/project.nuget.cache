@@ -1,11 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "g0N7f4GtKhI=",
+  "dgSpecHash": "VTKTpSgp8BY=",
   "success": true,
-  "projectFilePath": "D:\\СОФТ Л2 АДМИНА\\L2Updater\\L2Updater\\L2Updater.csproj",
+  "projectFilePath": "D:\\absolute\\UPDATER\\L2Updater\\L2Updater.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\seer\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.3\\microsoft.netframework.referenceassemblies.1.0.3.nupkg.sha512",
-    "C:\\Users\\seer\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net45\\1.0.3\\microsoft.netframework.referenceassemblies.net45.1.0.3.nupkg.sha512"
+    "C:\\Users\\valha\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\valha\\.nuget\\packages\\microsoft.netframework.referenceassemblies\\1.0.3\\microsoft.netframework.referenceassemblies.1.0.3.nupkg.sha512",
+    "C:\\Users\\valha\\.nuget\\packages\\microsoft.netframework.referenceassemblies.net45\\1.0.3\\microsoft.netframework.referenceassemblies.net45.1.0.3.nupkg.sha512",
+    "C:\\Users\\valha\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\valha\\.nuget\\packages\\system.runtime.interopservices.runtimeinformation\\4.3.0\\system.runtime.interopservices.runtimeinformation.4.3.0.nupkg.sha512"
   ],
   "logs": []
 }

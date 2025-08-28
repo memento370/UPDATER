@@ -20,3 +20,28 @@ D:\СОФТ Л2 АДМИНА\L2Updater\L2Updater\obj\Release\net45\L2Updater.csp
 D:\СОФТ Л2 АДМИНА\L2Updater\L2Updater\obj\Release\net45\L2Updater.exe
 D:\СОФТ Л2 АДМИНА\L2Updater\L2Updater\obj\Release\net45\L2Updater.pdb
 D:\СОФТ Л2 АДМИНА\L2Updater\L2Updater\obj\Release\net45\L2Updater.sourcelink.json
+D:\absolute\UPDATER\L2Updater\bin\Release\net45\L2Updater.exe.config
+D:\absolute\UPDATER\L2Updater\bin\Release\net45\L2Updater.exe
+D:\absolute\UPDATER\L2Updater\bin\Release\net45\L2Updater.pdb
+D:\absolute\UPDATER\L2Updater\bin\Release\net45\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\absolute\UPDATER\L2Updater\obj\Release\net45\L2Updater.csproj.AssemblyReference.cache
+D:\absolute\UPDATER\L2Updater\obj\Release\net45\L2Updater.exe.config
+D:\absolute\UPDATER\L2Updater\obj\Release\net45\Updater\MainWindow.g.cs
+D:\absolute\UPDATER\L2Updater\obj\Release\net45\Updater\NotificationWindow.g.cs
+D:\absolute\UPDATER\L2Updater\obj\Release\net45\App.g.cs
+D:\absolute\UPDATER\L2Updater\obj\Release\net45\L2Updater_MarkupCompile.cache
+D:\absolute\UPDATER\L2Updater\obj\Release\net45\L2Updater_MarkupCompile.lref
+D:\absolute\UPDATER\L2Updater\obj\Release\net45\App.baml
+D:\absolute\UPDATER\L2Updater\obj\Release\net45\Updater\MainStyleDict.baml
+D:\absolute\UPDATER\L2Updater\obj\Release\net45\Updater\MainWindow.baml
+D:\absolute\UPDATER\L2Updater\obj\Release\net45\Updater\NotificationWindow.baml
+D:\absolute\UPDATER\L2Updater\obj\Release\net45\Updater\Properties\designtimeresources.baml
+D:\absolute\UPDATER\L2Updater\obj\Release\net45\L2Updater.g.resources
+D:\absolute\UPDATER\L2Updater\obj\Release\net45\L2Updater.Updater.Properties.Resources.resources
+D:\absolute\UPDATER\L2Updater\obj\Release\net45\L2Updater.csproj.GenerateResource.cache
+D:\absolute\UPDATER\L2Updater\obj\Release\net45\L2Updater.GeneratedMSBuildEditorConfig.editorconfig
+D:\absolute\UPDATER\L2Updater\obj\Release\net45\L2Updater.csproj.CoreCompileInputs.cache
+D:\absolute\UPDATER\L2Updater\obj\Release\net45\L2Updater.sourcelink.json
+D:\absolute\UPDATER\L2Updater\obj\Release\net45\L2Updater.csproj.Up2Date
+D:\absolute\UPDATER\L2Updater\obj\Release\net45\L2Updater.exe
+D:\absolute\UPDATER\L2Updater\obj\Release\net45\L2Updater.pdb

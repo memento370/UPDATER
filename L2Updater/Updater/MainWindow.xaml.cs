@@ -371,21 +371,16 @@ namespace Updater
             Settings.Default.Lang = 0;
             LangInfo.Lang = Updater.Localization.Languages.Rus;
             OnPropertyChanged("Info");
-            /*Cancel.Content = "ОТМЕНА";
-			TrayQC.Header = "Быстрая проверка";
-			TrayFC.Header = "Полная проверка";
-			TrayStart.Header = "Старт";
-			TrayExit.Header = "Выход";
-			StartButton.Content = "НАЧАТЬ ИГРУ";
-			FullCheck.Content = "ОБНОВИТЬ";
-			QuickCheck.Content = "Быстрая проверка";
-			Site.Content = "САЙТ";
-			Forum.Content = "РЕГИСТРАЦИЯ";
-			Donate.Content = "ПОЖЕРТВОВАНИЯ";
-			Supp.Content = "Поддержка";
-			LangTitle.Text = "ВЫБЕРИ ЯЗЫК";
-			BackGround.Visibility = Visibility.Visible;
-			BackGroundEng.Visibility = Visibility.Hidden;*/
+            Cancel.Content = "ВІДМІНА";
+            QuickCheck.Content = "ШВИДКА ПЕРЕВІРКА";
+            FullCheck.Content = "ОНОВИТИ";
+            StartButton.Content = "";
+            Main.Content = "Головна";
+            Register.Content = "Реєстрація";
+            About.Content = "Про гру";
+            BaseInfo.Content = "База знаннь";
+            Cabinet.Content = "Кабінет";
+     
         }
 
         private void radioButton_ENG_Checked(object sender, RoutedEventArgs e)
@@ -393,21 +388,17 @@ namespace Updater
             Settings.Default.Lang = 1;
             LangInfo.Lang = Updater.Localization.Languages.Eng;
             OnPropertyChanged("Info");
-            /*Cancel.Content = "CANCEL";
-			TrayQC.Header = "Full check";
-			TrayFC.Header = "Quick check";
-			TrayStart.Header = "Start";
-			TrayExit.Header = "Exit";
-			StartButton.Content = "START GAME";
-			FullCheck.Content = "UPDATE";
-			QuickCheck.Content = "QUICK CHECK";
-			Site.Content = "WEBSITE";
-			Forum.Content = "REGISTER";
-			Donate.Content = "DONATIONS";
-			Supp.Content = "Support";
-			LangTitle.Text = "CHOOSE LANGUAGE";
-			BackGround.Visibility = Visibility.Hidden;
-			BackGroundEng.Visibility = Visibility.Visible;*/
+           
+            Cancel.Content = "CANCEL";
+            QuickCheck.Content = "QUICK CHECK";
+            FullCheck.Content = "UPDATE";
+            StartButton.Content = "";  // Якщо це кнопка без тексту, залиште порожнім або адаптуйте
+            Main.Content = "Main";
+            Register.Content = "Registration";
+            About.Content = "About";
+            BaseInfo.Content = "Info Base";
+            Cabinet.Content = "Cabinet";
+   
         }
 
         private void SetLanguage()
@@ -997,8 +988,8 @@ namespace Updater
 
         private void Window_ContentRendered(object sender, EventArgs e)
         {
-            SelfUpdate();
-            StartUpdateTask(UpdateTypes.Quick);
+            //SelfUpdate();
+            //StartUpdateTask(UpdateTypes.Quick);
         }
 
         private void Site_Click(object sender, RoutedEventArgs e)
@@ -1192,6 +1183,41 @@ namespace Updater
 		}
 
 		*/
+        private void SwitchLanguageButton_Click(object sender, RoutedEventArgs e)
+        {
+            // Перемикаємо мову циклічно: Rus -> Eng -> Rus...
+            if (LangInfo.Lang == Updater.Localization.Languages.Rus)
+            {
+                LangInfo.Lang = Updater.Localization.Languages.Eng;
+                Settings.Default.Lang = 1;  // 1 для Eng
+            }
+            else
+            {
+                LangInfo.Lang = Updater.Localization.Languages.Rus;
+                Settings.Default.Lang = 0;  // 0 для Rus
+            }
+
+            // Зберігаємо налаштування
+            Settings.Default.Save();
+
+            // Оновлюємо UI (наприклад, текст кнопок, якщо потрібно)
+            OnPropertyChanged("Info");  // Оновлює bindings, якщо є залежності від мови
+
+            // Опціонально: показуємо повідомлення користувачу
+            //MessageBox.Show("Мову змінено. Шлях до системних файлів оновлено.");
+
+            // Якщо потрібно, перезавантажуємо UI або оновлюємо інші елементи
+            // Наприклад, якщо є фонові зображення або тексти, що залежать від мови, викличте методи на кшталт radioButton_ENG_Checked або radioButton_RUS_Checked
+            if (LangInfo.Lang == Updater.Localization.Languages.Rus)
+            {
+                radioButton_RUS_Checked(null, null);
+            }
+            else
+            {
+                radioButton_ENG_Checked(null, null);
+            }
+        }
     }
+
 
 }

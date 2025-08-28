@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\СОФТ Л2 АДМИНА\\L2Updater\\L2Updater\\L2Updater.csproj": {}
+    "D:\\absolute\\UPDATER\\L2Updater\\L2Updater.csproj": {}
   },
   "projects": {
-    "D:\\СОФТ Л2 АДМИНА\\L2Updater\\L2Updater\\L2Updater.csproj": {
+    "D:\\absolute\\UPDATER\\L2Updater\\L2Updater.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\СОФТ Л2 АДМИНА\\L2Updater\\L2Updater\\L2Updater.csproj",
+        "projectUniqueName": "D:\\absolute\\UPDATER\\L2Updater\\L2Updater.csproj",
         "projectName": "L2Updater",
-        "projectPath": "D:\\СОФТ Л2 АДМИНА\\L2Updater\\L2Updater\\L2Updater.csproj",
-        "packagesPath": "C:\\Users\\seer\\.nuget\\packages\\",
-        "outputPath": "D:\\СОФТ Л2 АДМИНА\\L2Updater\\L2Updater\\obj\\",
+        "projectPath": "D:\\absolute\\UPDATER\\L2Updater\\L2Updater.csproj",
+        "packagesPath": "C:\\Users\\valha\\.nuget\\packages\\",
+        "outputPath": "D:\\absolute\\UPDATER\\L2Updater\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\seer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\valha\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -25,9 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "D:\\BTI\\sourse\\packages_22.1\\packages": {},
-          "\\\\172.16.4.7\\NuGetRepo": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -45,7 +43,8 @@
           "enableAudit": "true",
           "auditLevel": "low",
           "auditMode": "direct"
-        }
+        },
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net45": {
@@ -56,13 +55,17 @@
               "target": "Package",
               "version": "[1.0.3, )",
               "autoReferenced": true
+            },
+            "NETStandard.Library": {
+              "target": "Package",
+              "version": "[2.0.3, )"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.304\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
-        "win7-x86": {
+        "win-x86": {
           "#import": []
         }
       }

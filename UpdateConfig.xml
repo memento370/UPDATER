@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<UpdateConfig xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <UpdaterTitle>L2-absolute.com</UpdaterTitle>
+  <SelfUpdatePath>http://l2-absolute.com/files/</SelfUpdatePath>
+  <UpdaterVersion>0</UpdaterVersion>
+  <GameStartPathRu>system/l2.exe</GameStartPathRu>
+  <GameStartPathEng>system/l2.exe</GameStartPathEng>
+  <PatchPath>http://l2-absolute.com/files/</PatchPath>
+  <!-- <PatchClanPath>ссылка на клан патч</PatchClanPath> -->
+  <SiteLink>https://l2-absolute.com/</SiteLink>
+  <RegLink>https://l2-absolute.com/register</RegLink>
+  <AboutServerLink>https://l2-absolute.com/about</AboutServerLink>
+  <ForumLink>https://l2-absolute.com/forum</ForumLink>
+  <!-- <HelpLink>https://forum.l2cw.ru/</HelpLink> -->
+  <!-- <BonusLink>https://l2cw.ru/#bonus</BonusLink> -->
+  <FBLink></FBLink>
+  <DiscordLink></DiscordLink>
+  <!-- <TelegramLink>https://t.me/l2cwbot?start=start</TelegramLink> -->
+  <VkLink></VkLink>
+  <SupportLink></SupportLink>
+  <!-- <DonationLink>https://l2cw.ru/#settings</DonationLink> -->
+  <CabinetLink>https://l2-absolute.com/cabinet</CabinetLink>
+  <L2Top></L2Top>
+  <MMOTop></MMOTop>
+  <DownloadLink1>https://l2-absolute.com/files/</DownloadLink1>
+  <DownloadLink2>https://l2-absolute.com/files/</DownloadLink2>
+  <DownloadLink3>https://l2-absolute.com/files/</DownloadLink3>
+  <!-- <NewsList>
+    <News>
+      <Image>https://l2cw.ru/images/p1_2506562_c2b8073e.jpg</Image>
+      <TitleRu>ЗДРАСТЕ</TitleRu>
+      <BodyRu>Все заебись! </BodyRu>
+      <LinkRu>https://l2cw.ru</LinkRu>
+      <TitleEn>HELLOW WORLD</TitleEn>
+      <BodyEn>FUCK OFF DUDE</BodyEn>
+      <LinkEn>https://l2cw.ru</LinkEn>
+    </News>
+    <News>
+      <Image>https://l2cw.ru/images/lmnDKa1GgA0IT82m2JwNzA.png</Image>
+      <TitleRu>ЗДРАСТЕ</TitleRu>
+      <BodyRu>Все заебись! </BodyRu>
+      <LinkRu>https://l2cw.ru</LinkRu>
+      <TitleEn>HELLOW WORLD</TitleEn>
+      <BodyEn>FUCK OFF DUDE</BodyEn>
+      <LinkEn>https://l2cw.ru</LinkEn>
+    </News>
+    <News>
+      <Image>https://l2cw.ru/images/scale_1200.webp</Image>
+      <TitleRu>ЗДРАСТЕ</TitleRu>
+      <BodyRu>Все заебись! </BodyRu>
+      <LinkRu>https://l2cw.ru</LinkRu>
+      <TitleEn>HELLOW WORLD</TitleEn>
+      <BodyEn>FUCK OFF DUDE</BodyEn>
+      <LinkEn>https://l2cw.ru</LinkEn>
+    </News>
+    <News>
+      <Image>https://l2cw.ru/images/image_5e3bd9871986d7.03500524.jpg</Image>
+      <TitleRu>ЗДРАСТЕ</TitleRu>
+      <BodyRu>Все заебись! </BodyRu>
+      <LinkRu>https://l2cw.ru</LinkRu>
+      <TitleEn>HELLOW WORLD</TitleEn>
+      <BodyEn>FUCK OFF DUDE</BodyEn>
+      <LinkEn>https://l2cw.ru</LinkEn>
+    </News>
+  </NewsList> -->
+</UpdateConfig>

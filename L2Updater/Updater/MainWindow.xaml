@@ -43,9 +43,10 @@
                 <ImageBrush ImageSource="pictures/backabsolute.png" />
             </Shape.Fill>
         </Rectangle>
-        <Button Name="Cancel" Content="ОТМЕНА" Margin="850,500,0,0" VerticalAlignment="Top" Cursor="Hand" Template="{DynamicResource ButtonControlTemplate}" FontSize="18" HorizontalAlignment="Left" Command="{Binding CancelCommand}" ></Button>
-        <Button Name="QuickCheck" Content="БЫСТРАЯ ПРОВЕРКА" HorizontalAlignment="Left" Margin="850,400,0,0" Template="{DynamicResource ButtonControlTemplate}" VerticalAlignment="Top" Cursor="Hand" FontSize="18.667" Command="{Binding QuickCommand}" />
-        <Button Name="FullCheck" Content="ОБНОВИТЬ" Margin="850,450,0,0" VerticalAlignment="Top" Cursor="Hand" Template="{DynamicResource ButtonControlTemplate}" FontSize="18.667" HorizontalAlignment="Left" Command="{Binding FullCommand}" ></Button>
+        <Button Name="SwitchLanguageButton" Content="Перемкнути мову" Margin="850,350,0,0" VerticalAlignment="Top" Cursor="Hand" Template="{DynamicResource ButtonControlTemplate}" FontSize="18" HorizontalAlignment="Left" Click="SwitchLanguageButton_Click" />
+        <Button Name="Cancel" Content="ВІДМІНА" Margin="850,500,0,0" VerticalAlignment="Top" Cursor="Hand" Template="{DynamicResource ButtonControlTemplate}" FontSize="18" HorizontalAlignment="Left" Command="{Binding CancelCommand}" ></Button>
+        <Button Name="QuickCheck" Content="ШВИДКА ПЕРЕВІРКА" HorizontalAlignment="Left" Margin="850,400,0,0" Template="{DynamicResource ButtonControlTemplate}" VerticalAlignment="Top" Cursor="Hand" FontSize="18.667" Command="{Binding QuickCommand}" />
+        <Button Name="FullCheck" Content="ОНОВИТИ" Margin="850,450,0,0" VerticalAlignment="Top" Cursor="Hand" Template="{DynamicResource ButtonControlTemplate}" FontSize="18.667" HorizontalAlignment="Left" Command="{Binding FullCommand}" ></Button>
         <Button Name="StartButton" Content="" HorizontalAlignment="Left" Margin="2,400,0,0" VerticalAlignment="Top" Template="{DynamicResource StartButtonPictureTemplate}" FontSize="24" Cursor="Hand" Command="{Binding StartCommand}" Foreground="{x:Null}" BorderBrush="{x:Null}" Width="140" Height="140" Background="{x:Null}" />
         <ProgressBar Name="FileProgress" HorizontalAlignment="Left" Height="11" Margin="160,470,0,0" VerticalAlignment="Top" Width="680" Value="{Binding ProgressFile}" Maximum="{Binding MaxProgressFile}" Background="{x:Null}" BorderBrush="{x:Null}">
             <Control.Foreground>
@@ -78,13 +79,14 @@
                 </Control.Background>
             </RadioButton>
         </Grid>       
-        <Button Name="Main" Content="Главная" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Top" Width="auto" Height="auto" Template="{DynamicResource AccountTemplate}"  Cursor="Hand" Click="Site_Click"></Button>
-        <Button Name="Register" Content="Регистрация" HorizontalAlignment="Left" Margin="120,0,0,0" VerticalAlignment="Top" Width="auto" Template="{DynamicResource AccountTemplate}" Cursor="Hand" Height="auto" Click="Reg_Click"></Button>
-        <Button Name="About" Content="Об игре" HorizontalAlignment="Left" Margin="270,0,0,0" VerticalAlignment="Top" Width="auto" Template="{DynamicResource AccountTemplate}" Cursor="Hand" Height="auto" Click="About_Click"></Button>
-        <Button Name="BaseInfo" Content="База знаний" HorizontalAlignment="Left" Margin="380,0,0,0" VerticalAlignment="Top" Width="auto" Template="{DynamicResource AccountTemplate}" Cursor="Hand" Height="auto" Click="Base_Info_Click"></Button>
-        <Button Name="Cabinet" Content="Кабинет" HorizontalAlignment="Left" Margin="530,0,0,0" VerticalAlignment="Top" Width="auto" Template="{DynamicResource AccountTemplate}" Cursor="Hand" Height="auto" Click="Cabinet_Click"></Button>
+        <Button Name="Main" Content="Головна" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Top" Width="auto" Height="auto" Template="{DynamicResource AccountTemplate}"  Cursor="Hand" Click="Site_Click"></Button>
+        <Button Name="Register" Content="Реєстрація" HorizontalAlignment="Left" Margin="120,0,0,0" VerticalAlignment="Top" Width="auto" Template="{DynamicResource AccountTemplate}" Cursor="Hand" Height="auto" Click="Reg_Click"></Button>
+        <Button Name="About" Content="Про гру" HorizontalAlignment="Left" Margin="270,0,0,0" VerticalAlignment="Top" Width="auto" Template="{DynamicResource AccountTemplate}" Cursor="Hand" Height="auto" Click="About_Click"></Button>
+        <Button Name="BaseInfo" Content="База знаннь" HorizontalAlignment="Left" Margin="380,0,0,0" VerticalAlignment="Top" Width="auto" Template="{DynamicResource AccountTemplate}" Cursor="Hand" Height="auto" Click="Base_Info_Click"></Button>
+        <Button Name="Cabinet" Content="Кабінет" HorizontalAlignment="Left" Margin="530,0,0,0" VerticalAlignment="Top" Width="auto" Template="{DynamicResource AccountTemplate}" Cursor="Hand" Height="auto" Click="Cabinet_Click"></Button>
 
         <!-- <Button Name="Tray" Content="Tray" HorizontalAlignment="Left" Margin="1009,64,0,0" VerticalAlignment="Top" Width="16" Cursor="Hand" Height="16" Template="{DynamicResource SimpleBackgroundTemplate}" Background="#00FFFFFF" Command="{Binding TrayCommand}" /> -->
+
         <Button Name="Exit" Content="Exit" HorizontalAlignment="Left" Margin="1105,10,10,0" VerticalAlignment="Top" Width="25" Cursor="Hand" Height="25" Template="{DynamicResource SimpleBackgroundTemplate}" Command="{Binding ExitCommand}" >
             <av:Button.Background>
                 <av:ImageBrush ImageSource="pictures/close.png"/>

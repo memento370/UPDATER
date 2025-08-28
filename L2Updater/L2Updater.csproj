@@ -60,6 +60,9 @@
     <None Remove="Updater\pictures\vector.png" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="NETStandard.Library" Version="2.0.3" />
+  </ItemGroup>
+  <ItemGroup>
     <Resource Include="Updater\pictures\btn-hover.png" />
     <Resource Include="Updater\pictures\btn-press.png" />
     <Resource Include="Updater\pictures\btn-start-hover.png" />

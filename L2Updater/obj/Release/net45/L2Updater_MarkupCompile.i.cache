@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\СОФТ Л2 АДМИНА\L2Updater\L2Updater\obj\Release\net45\
+D:\absolute\UPDATER\L2Updater\obj\Release\net45\
 L2Updater
 none
 false
-TRACE;RELEASE;NETFRAMEWORK;NET45;
-D:\СОФТ Л2 АДМИНА\L2Updater\L2Updater\App.xaml
+TRACE;RELEASE;NETFRAMEWORK;NET45;;NET30_OR_GREATER;NET35_OR_GREATER;NET40_OR_GREATER;NET45_OR_GREATER
+D:\absolute\UPDATER\L2Updater\App.xaml
 4-466453740
 
 167-285341904
-201861586248
+71617387391
 Updater\MainStyleDict.xaml;Updater\MainWindow.xaml;Updater\NotificationWindow.xaml;Updater\Properties\designtimeresources.xaml;
 
-True
+False
 

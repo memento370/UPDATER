@@ -6,7 +6,7 @@ namespace Updater.Localization
         {
             get;
             set;
-        } = Languages.Eng;
+        } = Languages.Rus;
 
     }
 }
