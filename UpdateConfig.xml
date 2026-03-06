@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <UpdateConfig xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <UpdaterTitle>L2-absolute.com</UpdaterTitle>
-  <SelfUpdatePath>http://l2-absolute.com/files/</SelfUpdatePath>
+  <SelfUpdatePath>http://l2-absolute.com/api/files/</SelfUpdatePath>
   <UpdaterVersion>0</UpdaterVersion>
   <GameStartPathRu>system/l2.exe</GameStartPathRu>
   <GameStartPathEng>system/l2.exe</GameStartPathEng>
-  <PatchPath>http://l2-absolute.com/files/</PatchPath>
+  <PatchPath>http://l2-absolute.com/api/files/</PatchPath>
   <!-- <PatchClanPath>ссылка на клан патч</PatchClanPath> -->
   <SiteLink>https://l2-absolute.com/</SiteLink>
   <RegLink>https://l2-absolute.com/register</RegLink>
